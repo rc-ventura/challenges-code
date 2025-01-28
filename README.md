@@ -180,6 +180,6 @@ Se você encontrar algum problema ou desejar melhorar o projeto, você pode cont
 
 
 Obrigado por usar o projeto! Se precisar de ajuda, sinta-se à vontade para entrar em contato ou abrir uma issue.
-```
+
 
 
