@@ -67,3 +67,80 @@ Um **projeto open source** é uma solução cujo código-fonte é disponibilizad
 - **Gestão de licenças:** Algumas licenças open source exigem cuidados legais, como a GPL.
 - **Curva de aprendizado:** Algumas soluções exigem conhecimentos avançados para implementação.
 - **Suporte limitado:** Dependência de comunidades ou empresas terceiras para suporte técnico.
+
+# Como Usar Este Projeto Node.js
+
+Este README fornece instruções passo a passo para configurar e executar um projeto Node.js que contém duas pastas principais (`./primos` e `./fibonacci`) com código.
+
+## Pré-requisitos
+
+Antes de começar, certifique-se de ter instalado em seu sistema:
+- [Node.js](https://nodejs.org/) (versão recomendada LTS)
+- [npm](https://www.npmjs.com/) ou [yarn](https://yarnpkg.com/)
+
+## Instalação do Projeto
+
+1. **Clone o repositório** (se ainda não tiver feito):
+   ```sh
+   git clone challenges-code
+   cd challenges-code
+   ```
+
+2. **Instale as dependências** no diretório raiz:
+   ```sh
+   npm install
+   ```
+   ou, se estiver usando `yarn`:
+   ```sh
+   yarn install
+   ```
+
+3. **Instale dependências individuais** (se necessário) para cada pasta separadamente:
+   ```sh
+   cd primos && npm install
+   cd ../fibonacci && npm install
+   ```
+   ou com `yarn`:
+   ```sh
+   cd primos && yarn install
+   cd ../fibonacci && yarn install
+   ```
+
+## Executando o Projeto
+
+Dependendo da estrutura do projeto, você pode precisar executar diferentes partes separadamente.
+
+### Rodando as pastas
+
+```sh
+cd primos
+npm start
+```
+
+ou
+
+```sh
+cd fibonacci
+yarn start
+```
+
+## Estrutura do Projeto
+
+```
+.
+├── package.json
+├── package-lock.json
+├── primos/
+│   ├── primos-lienar.js
+│   ├── primos-recursive.js
+|   ├── primos.js (codigo base)
+
+├── fibonacci/
+│   ├── fibonacci-linear.js
+│   ├── fibonacci-recursive.js
+|   ├── fibonacci.js (codigo base)
+
+```
+
+---
+Agora seu projeto Node.js está pronto para ser executado! 🚀
