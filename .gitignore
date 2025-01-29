@@ -1,8 +1,6 @@
 # Ignorar dependências do Node.js
 node_modules/
 
-# Ignorar lockfile gerado automaticamente
-package-lock.json
 
 # Ignorar logs e outros arquivos desnecessários
 npm-debug.log*
